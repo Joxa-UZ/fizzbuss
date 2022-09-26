@@ -1,35 +1,60 @@
-.site-list{
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-wrapper{
     display: flex;
     align-items: center;
-    margin: 0;
-    margin-bottom: 20px;
-    padding: 0;
-    list-style: none;
+    flex-direction: column;
 }
-.site-item{
-    margin-right: 10px;
-}
-
-.site-form{
+.site-title{
     margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+.site-form{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .site-input{
-    margin-right: 20px;
+    padding: 5px;
 }
-.site-input2{
-    margin-right: 20px;
+.site-btn{
+    width: 50px;
+    margin-left: 20px;
+    padding: 5px;
 }
 .box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
-.oldinga{
-    border: 2px solid #000;
-    background-color: aqua;
-    margin-right: 30px;
+.site-result{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.third-item{
+    margin-right: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.five-item{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.both-item{
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: aquamarine;
 }
